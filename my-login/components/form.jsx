@@ -1,7 +1,9 @@
-export function From(){
+export function FromDefult(){
     return <>
-    <input type="text" name="" id="" />
-    <input type="text" name="" id="" />
-    <button></button>
+    <input type="text" className="user-input-field" placeholder="e-mail"/>
+    <input type="password" className="user-input-field" placeholder="password"/>
+    <button id="login-btn">Log in</button>
     </>
 }
+
+export default FromDefult
