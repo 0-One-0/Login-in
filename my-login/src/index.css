@@ -1,3 +1,17 @@
-:root{
-  
+:root {
+  --backgroundGradient: linear-gradient(
+    to bottom right,
+    #c6a88f,
+    #6f7380,
+    #1f3448
+  );
 }
+body{
+  background: var(--backgroundGradient);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

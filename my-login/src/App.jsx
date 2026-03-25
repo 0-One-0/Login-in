@@ -5,8 +5,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <section>
+      <section className="login-section">
         <div className="log-container">
+          <h1>Login</h1>
           <FromDefult />
         </div>
       </section>
